@@ -2,7 +2,7 @@
 ## Usage 
 ```
 const seqFlow = require('seqFlow');
-//define N functions
+
 const fn1 = (data, next) => {
     console.log('fn1')
     data++
