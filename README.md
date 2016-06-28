@@ -15,7 +15,7 @@ foo(data, next);
 
 ## Usage 
 ```javascript
-const seqFlow = require('seqFlow');
+const seqflow = require('seqflow');
 
 const fn1 = (data, next) => {
     console.log('fn1');
@@ -34,7 +34,7 @@ const fn3 = (data, next) => {
     next(null, data);
 }
 
-seqFlow([fn1, fn2, fn3], 0, (err, data) => {
+seqflow([fn1, fn2, fn3], 0, (err, data) => {
     if(err) {
         console.error('error');
     }
