@@ -1,6 +1,6 @@
 {
   "name": "seqflow",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helper for sequentialy functions call",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,5 @@
     "url": "https://github.com/allancarvalho/seqflow"
 },
 "author": "",
-"license": "ISC"
+"license": "MIT"
 }
